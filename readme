@@ -1,80 +1,126 @@
-📦 Product Inventory Management App  
-Welcome to the Product Inventory Management App – an interactive Streamlit dashboard designed to visualize warehouse stock levels, restocking schedules, and product distribution across zones.
+# 📦 Product Inventory Management App
 
-📌 Overview  
-This app helps warehouse managers and staff track and understand inventory levels across different product categories and zones.
+Welcome to the Product Inventory Management App – an interactive and beginner-friendly Streamlit dashboard for visualizing warehouse stock levels, restocking schedules, and product distribution across zones.
 
-It offers:
+---
 
-📊 Bar plot showing product quantities by category  
-📈 Line plot showing upcoming restocking trends  
-🔥 Heatmap showing inventory levels across warehouse zones  
-📄 Raw data preview from CSV  
+## 📌 Overview
 
-🎯 Introduction  
-Inventory management is crucial for efficient warehouse operations. This application takes simple inventory data (from ERP or CSV files) and transforms it into easy-to-understand visual insights for informed decision-making.
+This application helps warehouse managers and staff:
 
-🛠️ Tech Stack Used  
-⚙️ Lightweight, Interactive, and Efficient!
+- 📊 View product quantities by category (bar plot)  
+- 📈 Analyze restocking trends over time (line plot)  
+- 🔥 Visualize stock distribution across zones (heatmap)  
+- 📄 Preview raw inventory data  
 
-✅ Python – Core programming language  
-✅ Streamlit – For building an interactive and user-friendly UI  
-✅ Pandas – For data reading and preprocessing  
-✅ Matplotlib & Seaborn – For generating visualizations  
+---
 
-🧠 Why Use This App?  
-✅ Visually understand category-wise inventory levels  
-✅ Track when and what products need to be restocked  
-✅ Identify stock distribution across warehouse zones  
-✅ Simple, beginner-friendly UI for real-time decision-making  
+## 🎯 Introduction
 
-🗂️ File Structure  
-product_inventory_app/  
-├── main.py                  # Core Streamlit app with visualizations  
-├── inventory_data.csv       # Sample inventory dataset  
-├── barplot.png              # Auto-generated bar plot image  
-├── lineplot.png             # Auto-generated line plot image  
-├── heatmap.png              # Auto-generated heatmap image  
-└── README.md                # This documentation file  
+Inventory management is key to efficient warehouse operations. This app converts basic CSV inventory data into insightful visualizations for better stock control, restocking decisions, and zone monitoring.
 
-📄 Dataset (inventory_data.csv)  
-Includes a list of warehouse products with stock, categories, zones, and restock dates.
+---
 
-Example:
+## 🛠️ Tech Stack
 
-Product_ID,Product_Name,Category,Quantity,Restock_Date,Zone  
-P001,Keyboard,Electronics,150,2025-05-25,A1  
-P002,Mouse,Electronics,100,2025-05-30,A2  
-P003,Monitor,Electronics,80,2025-06-01,A3  
-P004,Chair,Furniture,60,2025-05-27,B1  
-...  
+Built using simple but powerful Python tools:
 
-🚀 How to Run  
+- 🐍 Python — Base programming language  
+- 🧪 Pandas — For data handling and preprocessing  
+- 📊 Matplotlib & Seaborn — For charts and heatmaps  
+- 🌐 Streamlit — For building the interactive dashboard UI  
 
-✅ Clone the repo  
+---
 
-git clone https://github.com/your-username/product-inventory-app.git  
-cd product-inventory-app  
+## 🧠 Why Use This App?
 
-✅ Install dependencies  
+- ✅ Track inventory by category and zone  
+- ✅ Monitor restock timelines  
+- ✅ Understand stock allocation visually  
+- ✅ Improve operational planning and reduce over/understocking  
 
-pip install pandas matplotlib seaborn streamlit  
+---
 
-✅ Run the app  
+## 🗂️ File Structure
 
-streamlit run main.py  
+```
+product_inventory_app/
+├── main.py                 # Streamlit application script
+├── inventory_data.csv      # Sample inventory data
+├── barplot.png             # (Auto-generated) bar chart
+├── lineplot.png            # (Auto-generated) line chart
+├── heatmap.png             # (Auto-generated) heatmap
+└── README.md               # Project documentation
+```
 
-📦 Dependencies  
-Install all required packages:
+---
 
-pip install pandas matplotlib seaborn streamlit  
+## 📄 Sample Dataset (inventory_data.csv)
 
-🤝 Contributing  
-Pull requests are welcome! If you’d like to suggest improvements or fix bugs, feel free to fork the repo and create a PR.
+| Product_ID | Product_Name   | Category    | Quantity | Restock_Date | Zone |
+|------------|----------------|-------------|----------|--------------|------|
+| P001       | Keyboard        | Electronics | 150      | 2025-05-25   | A1   |
+| P002       | Mouse           | Electronics | 100      | 2025-05-30   | A2   |
+| P004       | Chair           | Furniture   | 60       | 2025-05-27   | B1   |
+| P006       | Whiteboard      | Stationery  | 40       | 2025-06-03   | C1   |
+| ...        | ...             | ...         | ...      | ...          | ...  |
 
-📬 Contact  
+---
+
+## 🚀 How to Run
+
+### ✅ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/product-inventory-app.git
+cd product-inventory-app
+```
+
+### ✅ Install Required Libraries
+
+```bash
+pip install pandas matplotlib seaborn streamlit
+```
+
+### ✅ Launch the App
+
+```bash
+streamlit run main.py
+```
+
+Once launched, your browser will open the interactive dashboard automatically.
+
+---
+
+## 📦 Requirements
+
+This project depends on:
+
+- streamlit  
+- pandas  
+- matplotlib  
+- seaborn  
+
+Install all dependencies:
+
+```bash
+pip install streamlit pandas matplotlib seaborn
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! Whether it’s a visual tweak, performance enhancement, or data formatting improvement — feel free to fork and open a PR.
+
+---
+
+## 📬 Contact
+
 Made with ❤️ by Karthik Balaji  
-📧 karthikbalaji@example.com  
-🌐 GitHub: https://github.com/your-username  
+📧 Email: karthikbalaji@example.com  
+🌐 GitHub: https://github.com/your-username
 
-Empowering Inventory Visibility Through Visualization 📊
+---
+
+> Empowering Inventory Visibility Through Data 🚀
