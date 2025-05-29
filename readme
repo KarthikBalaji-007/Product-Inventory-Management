@@ -1,126 +1,127 @@
-# 📦 Product Inventory Management App
+# 🎓 University Placement Analysis App
 
-Welcome to the Product Inventory Management App – an interactive and beginner-friendly Streamlit dashboard for visualizing warehouse stock levels, restocking schedules, and product distribution across zones.
-
----
-
-## 📌 Overview
-
-This application helps warehouse managers and staff:
-
-- 📊 View product quantities by category (bar plot)  
-- 📈 Analyze restocking trends over time (line plot)  
-- 🔥 Visualize stock distribution across zones (heatmap)  
-- 📄 Preview raw inventory data  
+Welcome to the *University Placement Analysis App* – a dynamic, data-driven Streamlit application designed to visualize, interpret, and interact with university placement statistics.
 
 ---
 
-## 🎯 Introduction
+## 📌 *Overview*
 
-Inventory management is key to efficient warehouse operations. This app converts basic CSV inventory data into insightful visualizations for better stock control, restocking decisions, and zone monitoring.
+This app empowers students, faculty, and administrators to explore placement trends across various departments, including *CSE, IT, ECE, EEE, MECH, and AIML*.
 
----
-
-## 🛠️ Tech Stack
-
-Built using simple but powerful Python tools:
-
-- 🐍 Python — Base programming language  
-- 🧪 Pandas — For data handling and preprocessing  
-- 📊 Matplotlib & Seaborn — For charts and heatmaps  
-- 🌐 Streamlit — For building the interactive dashboard UI  
+It offers:
+- 📊 *Interactive bar charts* for placement rates  
+- 💰 *Salary distribution analysis* using box plots  
+- 📈 *Yearly placement trends* via line plots  
+- 📄 *Raw data preview*  
 
 ---
 
-## 🧠 Why Use This App?
+## 🎯 *Introduction*
 
-- ✅ Track inventory by category and zone  
-- ✅ Monitor restock timelines  
-- ✅ Understand stock allocation visually  
-- ✅ Improve operational planning and reduce over/understocking  
+*Welcome to your one-stop portal for understanding university placements!*  
+This application takes raw placement data and transforms it into easy-to-understand visual insights.
 
 ---
 
-## 🗂️ File Structure
 
-```
-product_inventory_app/
-├── main.py                 # Streamlit application script
-├── inventory_data.csv      # Sample inventory data
-├── barplot.png             # (Auto-generated) bar chart
-├── lineplot.png            # (Auto-generated) line chart
-├── heatmap.png             # (Auto-generated) heatmap
-└── README.md               # Project documentation
-```
+## 🛠 *Tech Stack Used*
+
+> *⚙ Simple, Scalable, and Streamlined!*
+
+- ✅ *Python* – Core programming language  
+- ✅ *Streamlit* – For building an intuitive and interactive UI  
+- ✅ *Pandas* – For data manipulation and analysis  
+- ✅ *Matplotlib & Seaborn* – For generating compelling visualizations  
 
 ---
 
-## 📄 Sample Dataset (inventory_data.csv)
 
-| Product_ID | Product_Name   | Category    | Quantity | Restock_Date | Zone |
-|------------|----------------|-------------|----------|--------------|------|
-| P001       | Keyboard        | Electronics | 150      | 2025-05-25   | A1   |
-| P002       | Mouse           | Electronics | 100      | 2025-05-30   | A2   |
-| P004       | Chair           | Furniture   | 60       | 2025-05-27   | B1   |
-| P006       | Whiteboard      | Stationery  | 40       | 2025-06-03   | C1   |
-| ...        | ...             | ...         | ...      | ...          | ...  |
+## 🧠 *Why Use This App?*
 
----
+> *📈 Insightful, Instant, and Informative!*  
 
-## 🚀 How to Run
-
-### ✅ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/product-inventory-app.git
-cd product-inventory-app
-```
-
-### ✅ Install Required Libraries
-
-```bash
-pip install pandas matplotlib seaborn streamlit
-```
-
-### ✅ Launch the App
-
-```bash
-streamlit run main.py
-```
-
-Once launched, your browser will open the interactive dashboard automatically.
+- ✅ Track department-wise placement performance  
+- ✅ Evaluate salary distributions  
+- ✅ Monitor trends across academic years  
+- ✅ Useful for students choosing departments and institutes making data-backed decisions  
 
 ---
 
-## 📦 Requirements
+## 🗂 *File Structure*
 
-This project depends on:
+plaintext
+placement_analysis_app/
+├── app.py                    # Main Streamlit application
+├── data/
+│   └── sample_placement.csv  # Local dataset file
+├── utils/
+│   └── __init__.py
+├── README.md                 # This README file
 
-- streamlit  
-- pandas  
-- matplotlib  
-- seaborn  
 
-Install all dependencies:
+---
 
-```bash
+## 📄 *Dataset (sample_placement.csv)*
+
+Includes comprehensive placement data across departments:
+
+| Name         | Year | Department | Package | Student |
+|--------------|------|------------|---------|---------|
+| Riya Mehta   | 2021 | CSE        | 6.5     | Yes     |
+| Amit Rao     | 2022 | IT         | 5.2     | Yes     |
+| Priya Rajan  | 2023 | ECE        | 4.8     | Yes     |
+| Vikram Menon | 2021 | AIML       | 7.1     | Yes     |
+| ...          | ...  | ...        | ...     | ...     |
+
+---
+
+## 🚀 *How to Run*
+
+1. ✅ Clone the repo  
+   cmd
+   git clone https://github.com/your-username/university-placement-analysis-app.git
+   cd university-placement-analysis-app
+   
+
+2. ✅ Install dependencies  
+   cmd
+   pip install -r requirements.txt
+   
+
+3. ✅ Run the app  
+   cmd
+   streamlit run app.py
+   
+
+---
+
+## 📦 *Dependencies*
+
+Make sure to have the following installed:
+- streamlit
+- pandas
+- matplotlib
+- seaborn
+
+You can install them using:
+bash
 pip install streamlit pandas matplotlib seaborn
-```
+
 
 ---
 
-## 🤝 Contributing
+## 🤝 *Contributing*
 
-Pull requests are welcome! Whether it’s a visual tweak, performance enhancement, or data formatting improvement — feel free to fork and open a PR.
-
----
-
-## 📬 Contact
-
-Made with ❤️ by Karthik Balaji  
-📧 Email: karthikbalaji@example.com  
-🌐 GitHub: https://github.com/your-username
+Pull requests are welcome! If you'd like to improve the dataset or UI, feel free to fork the repo and open a PR !
 
 ---
 
-> Empowering Inventory Visibility Through Data 🚀
+## 📬 *Contact*
+
+Made with ❤ by Vishnupriyan P R
+📧 vishnupriyan.pr2024aiml@sece.ac.in
+🌐 [GitHub](https://github.com/vishnupriyanpr183207)
+
+---
+
+*Empowering Placement Decisions with Data!*
