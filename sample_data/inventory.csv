@@ -1,0 +1,21 @@
+ProductID,ProductName,Category,Quantity,RestockDate,WarehouseZone
+1001,USB Cable,Electronics,320,2025-06-01,Zone 1
+1002,HDMI Cable,Electronics,210,2025-06-04,Zone 1
+1003,Power Drill,Tools,45,2025-06-10,Zone 2
+1004,Hammer,Tools,80,2025-06-05,Zone 3
+1005,Toaster,Appliances,25,2025-06-12,Zone 3
+1006,Microwave,Appliances,18,2025-06-11,Zone 3
+1007,Wireless Mouse,Electronics,400,2025-06-03,Zone 1
+1008,Keyboard,Electronics,350,2025-06-06,Zone 1
+1009,Air Conditioner,Appliances,12,2025-06-15,Zone 4
+1010,Lawn Mower,Garden,30,2025-06-07,Zone 2
+1011,Shovel,Garden,75,2025-06-09,Zone 2
+1012,Hose,Garden,90,2025-06-08,Zone 2
+1013,Screwdriver Set,Tools,150,2025-06-02,Zone 3
+1014,Smart Plug,Electronics,230,2025-06-13,Zone 1
+1015,Extension Cord,Electronics,190,2025-06-10,Zone 1
+1016,Blender,Appliances,40,2025-06-04,Zone 3
+1017,Leaf Blower,Garden,22,2025-06-14,Zone 2
+1018,Drill Bits,Tools,95,2025-06-06,Zone 3
+1019,Light Bulb Pack,Electronics,500,2025-06-05,Zone 1
+1020,Electric Kettle,Appliances,33,2025-06-08,Zone 4
