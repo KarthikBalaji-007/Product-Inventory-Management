@@ -117,8 +117,8 @@ Pull requests are welcome! Whether it’s a visual tweak, performance enhancemen
 
 ## 📬 Contact
 
-Made with ❤️ by Karthik Balaji  
-📧 Email: karthikbalaji@example.com  
+Made with ❤️ by Karthik Balaji S V
+📧 Email: karthikbalaji0310@gmail.com
 🌐 GitHub: https://github.com/KarthikBalaji-007
 
 ---
