@@ -119,7 +119,7 @@ Pull requests are welcome! Whether it’s a visual tweak, performance enhancemen
 
 Made with ❤️ by Karthik Balaji  
 📧 Email: karthikbalaji@example.com  
-🌐 GitHub: https://github.com/your-username
+🌐 GitHub: https://github.com/KarthikBalaji-007
 
 ---
 
